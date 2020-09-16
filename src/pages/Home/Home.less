@@ -1,0 +1,64 @@
+.home {
+  width: 100%;
+  height: auto;
+  &-slogan {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    &-logo {
+      font-size: 50px;
+      color: #50a1ff;
+    }
+    &-h {
+      display: flex;
+      flex-direction: column;
+      margin-left: 12px;
+      h1 {
+        margin: 0;
+        color: #50a1ff;
+      }
+      h5 {
+        margin: 0;
+        color: #50a1ff;
+      }
+    }
+  }
+  header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    align-items: center;
+    background: #111;
+    color: #fff;
+    // flex-direction: row;
+  }
+  &-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-search {
+    width: 400px;
+    height: 40px;
+  }
+  &-menu {
+    height: 80px;
+    &-tabs {
+      .ant-tabs-nav {
+        .ant-tabs-nav-wrap {
+          .ant-tabs-nav-list {
+            margin-left: 90px;
+            .ant-tabs-tab {
+              margin: 0 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-content {
+    height: auto;
+  }
+}
